@@ -1,0 +1,23 @@
+/*
+== เท่ากับ
+!= ไม่เท่ากับ
+> มากกว่า
+< น้อยกว่า
+>= มากกว่าหรือเท่ากับ
+<= น้อยกว่าหรือเท่ากัน
+*/
+let score =65;
+//if - else condition
+if (score >=80) { //false
+        console.log('you are grade A');
+} else if (score >=70)  { //false
+     console.log('you are grade B');       
+} else if (score >=60)  { //true
+     console.log('you are grade C');
+} else if (score >=50) {
+        console.log('you are grade D');
+} else {
+    console.log('you are grade F');
+// true && true = true 
+if (age >=20 && gender == 'male') {
+console.log('You are male adult');
